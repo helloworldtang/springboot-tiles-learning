@@ -29,7 +29,7 @@
             <scope>provided</scope>
         </dependency>
 
-        <!--thymeleaf tile-->
+        <!--tiles-jsp-->
         <dependency>
             <groupId>org.apache.tiles</groupId>
             <artifactId>tiles-jsp</artifactId>
