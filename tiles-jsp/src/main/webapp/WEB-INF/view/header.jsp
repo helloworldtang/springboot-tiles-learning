@@ -5,9 +5,9 @@
   Time: 20:20
   To change this template use File | Settings | File Templates.
 --%>
-<%@ taglib uri="http://www.springframework.org/tags" prefix="s" %>
-<a href="<s:url value="/" />">
-    <img src="/static/logo.png" border="0" />
-</a>
-
-<div>The Header</div>
+<div>
+    <h1>Tiles Header</h1>
+    <a href="${pageContext.request.contextPath}/">
+        <img src="${pageContext.request.contextPath}/static/logo.png" border="0"/>
+    </a>
+</div>
