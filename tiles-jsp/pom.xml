@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>tiles-jsp</artifactId>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>tiles-jsp</name>
     <description>tiles-jsp</description>
@@ -43,6 +43,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.tangcheng.web.mvc.tiles.jsp.TilesJSPApplication</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
